@@ -100,7 +100,8 @@ table {
 }
 
 .login-input-wrap .email-wrap img {
-	height: 54px;
+	width: 20px;
+	padding: 12px;
 	vertical-align: middle;
 }
 
@@ -112,6 +113,8 @@ table {
 	overflow: hidden;
 	vertical-align: middle;
 	font-size: 16px;
+	border : none;
+	border-left: 1px solid var(--border-gray-color);
 }
 
 .login-input-wrap .password-wrap {
@@ -121,7 +124,8 @@ table {
 }
 
 .login-input-wrap .password-wrap img {
-	height: 54px;
+	width: 20px;
+	padding: 12px;
 	vertical-align: middle;
 }
 
@@ -133,6 +137,8 @@ table {
 	overflow: hidden;
 	vertical-align: middle;
 	font-size: 16px;
+	border : none;
+	border-left: 1px solid var(--border-gray-color);
 }
 
 .login-stay-sign-in {
