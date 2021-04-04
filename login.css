@@ -91,6 +91,10 @@ table {
 	align-items: center;
 }
 
+.login-input-wrap .email-wrap{
+	width:576px;
+}
+
 .email-wrap{
 	border: 1px solid var(--border-gray-color);
 }
@@ -101,7 +105,7 @@ table {
 }
 
 .login-input-wrap .email-wrap input {
-	width: 570px;
+	width: 502px;
 	height: 49px;
 	margin-left: -4px;
 	padding-left: 20px;
@@ -111,6 +115,7 @@ table {
 }
 
 .login-input-wrap .password-wrap {
+	width:576px;
 	margin-top: 13px;
 	border: 1px solid var(--border-gray-color);
 }
@@ -121,7 +126,7 @@ table {
 }
 
 .login-input-wrap .password-wrap input {
-	width: 570px;
+	width: 502px;
 	height: 49px;
 	margin-left: -4px;
 	padding-left: 20px;
@@ -131,7 +136,7 @@ table {
 }
 
 .login-stay-sign-in {
-	width: 660px;
+	width: 572px;
 	height: 52px;
 	
 	display: flex;
@@ -153,13 +158,13 @@ table {
 	border: none;
 	background: white;
 	font-size: 16px;
-	margin-left: 340px;
+	margin-left: 250px;
 }
 
 .login-button-wrap button{
 	margin-top: 30px;
-	width: 660px;
-	height :60px;
+	width: 575px;
+	height :66px;
 	font-size: 18px;
 	background: var(--disable-blue);
 	color: var(--disable-light-blue);
@@ -169,14 +174,14 @@ table {
 
 hr {
 	margin-top: 20px;
-	width: 660px;
+	width: 575px;
 	border: solid 0.5px var(--border-gray-color);
 }
 
 .sign-up-button-wrap button {
 	margin-top: 10px;
-	width: 660px;
-	height :60px;
+	width: 575px;
+	height :66px;
 	font-size: 18px;
 	background: white;
 	color: var(--coupang-blue);
