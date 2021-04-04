@@ -50,7 +50,12 @@ table {
 
 /* End of reset CSS */
 
-.main-container{
+:root {
+	--border-gray-color : #CCCCCC;
+	--placeholder-gray-color : #929292;
+}
+
+.main-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -58,15 +63,66 @@ table {
     margin-top: 21px;
 }
 
-.main-container .main-wrap{
+.main-container .main-wrap {
     /* width: 768px; */
 }
 
-.main-container .main-wrap .logo-wrap{
+.main-container .main-wrap .logo-wrap {
 	padding-top: 90px;
 }
 
-.main-container .main-wrap .logo-wrap img{
+.main-container .main-wrap .logo-wrap img {
     width: 246px;
     height: 56px;
+}
+
+.login-input-section-wrap {
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-input-wrap {
+	float: center;
+	align-items: center;
+}
+
+.email-wrap{
+	border: 1px solid var(--border-gray-color);
+}
+
+.login-input-wrap .email-wrap img {
+	height: 54px;
+	vertical-align: middle;
+}
+
+.login-input-wrap .email-wrap input {
+	width: 570px;
+	height: 49px;
+	margin-left: -4px;
+	padding-left: 20px;
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.login-input-wrap .password-wrap {
+	margin-top: 13px;
+	border: 1px solid var(--border-gray-color);
+}
+
+.login-input-wrap .password-wrap img {
+	height: 54px;
+	vertical-align: middle;
+}
+
+.login-input-wrap .password-wrap input {
+	width: 570px;
+	height: 49px;
+	margin-left: -4px;
+	padding-left: 20px;
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: 16px;
 }
